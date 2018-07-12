@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> <!-- default styling by this -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">  <!-- for consistency for every device, scale means 100% zoom by default -->
+	<title>Fitness Website Project</title>
+	<link rel="icon" type="image/png" href="D:\Bootstrap 4 Site Starter Files\img\barbell_dumbbell_dumbell_fitness_gym_weight_weightlifting-128.png"/>
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->   
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html"><img src="D:\Bootstrap 4 Site Starter Files\img\Gym-Fitness-Logo-Template-999x999 (2).png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pricef.html">Train With Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="galaary1.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about1.html">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="D:\Bootstrap 4 Site Starter Files\ContactFrom_v15\about.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<form class="navbar-form navbar-left" action="#">
+  				<div class="input-group">
+    			<input type="text" class="form-control" placeholder="Search . . . .">
+  				</div>
+			</form>
+		</div>
+	</nav>
+
+
+
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="D:\Bootstrap 4 Site Starter Files\img\402034_gym-wallpapers-hd-download_2716x1810_h.png">
+		<div class="carousel-caption">
+			<h1 class="display-2" style="color: #fff">Stop Making Excuses</h1>
+			<h3><p style="color: #fff">Sweat. Smile. Repeat.</p></h3>
+			<button type="button" class="btn btn-outline-light btn-lg"><a href="https://www.youtube.com/watch?v=3PEwVshvK7U">View Demo</button></a>
+			<button type="button" class="btn btn-primary btn-lg"><a href="D:\Login Form Design\index.html">Membership</button></a>
+		</div>
+	</div>
+
+	<div class="carousel-item">
+		<img src="D:\Bootstrap 4 Site Starter Files\images\gym-girl-2048x1152_1200x615.jpg">
+		<div class="carousel-caption">
+			<h1 class="display-2" style="color: #fff">Ride To Fitness</h1>
+			<button type="button" class="btn btn-primary btn-lg"><a href="D:\Login Form Design\index.html">Membership</button></a>
+		</div>
+	</div>
+
+	<div class="carousel-item">
+		<img src="D:\Bootstrap 4 Site Starter Files\images\7ef571fc69e4a5ae2fd5303953f24dab_1200x615.jpg">
+		<div class="carousel-caption">
+			<h1 class="display-2" style="color: #fff">Start Your Journey With Our Exciting Offers</h1>
+			<button type="button" class="btn btn-primary btn-lg"><a href="D:\Login Form Design\index.html">Membership</button></a>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-xl-10">
+			<p class="lead">“Of course it’s hard. It’s supposed to be hard. It it were easy, everybody would do it. Hard is what makes it great.”</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="D:\Login Form Design\index.html"><button type="button" class="btn btn-outline-secondary btn-lg">Join Us</button></a>
+		</div>
+	</div>
+</div>
+
+<div id="fh5co-services" class="fh5co-bg-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span><img class="img-responsive" src="images/dumbbell.svg" alt=""></span>
+						<h3>Weight Lifting</h3>
+						<p>Physical activity reduces stress by releasing endorphins, which are feel-good hormones. Although both cardio and strength training stimulate your body to release endorphins, your body produces more endorphins in a faster period of time when you're weight lifting than when you're doing cardio.</p>
+						<p><a href="#" class="btn btn-primary btn-outline btn-sm">More <i class="icon-arrow-right"></i></a></p>
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span><img class="img-responsive" src="images/exercise.svg" alt=""></span>
+						<h3>Running</h3>
+						<p>Strengthen that core. A strong core improves posture, strengthens limbs, and helps make everyday activities a breeze. And whether you feel it or not, running engages your midsection, strengthening those all-important muscles. Bonus: A solid core can improve performance.</p>
+						<p><a href="#" class="btn btn-primary btn-outline btn-sm">More <i class="icon-arrow-right"></i></a></p>
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span><img class="img-responsive" src="images/yoga-carpet.svg" alt=""></span>
+						<h3>Yoga</h3>
+						<p>Workout fads come and go, but virtually no other exercise program is as enduring as yoga. It's been around for more than 5,000 years. Yoga does more than burn calories and tone muscles. It's a total mind-body workout that combines strengthening and stretching poses with deep breathing and meditation or relaxation</p>
+						<p><a href="#" class="btn btn-primary btn-outline btn-sm">More <i class="icon-arrow-right"></i></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-lg-6">
+		<h2> Reasons You Should Start Working Out Today..</h2>
+		<p>Take a walk or head to the gym for a quick workout. One of the most common mental benefits of exercise is stress relief. Working up a sweat can help manage physical and mental stress. Exercise also increases concentrations of norepinephrine, a chemical that can moderate the brain's response to stress.</p>
+		<br>
+		<a href="#" class="btn btn-primary">Learn More</a>
+	</div>
+	<div class="col-lg-6">
+		<img src="D:\Bootstrap 4 Site Starter Files\img\respire04_136133054.jpg" class="img-fluid">
+	</div>
+</div>
+</div>
+
+<hr class="my-4">
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+<!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Click For FUN. Laughter is the best Medicine.
+</button>
+<div id="emoji" class="collapse">
+	<div class="container-fluid padding">
+	<div class="row text-center">
+		<div class="col-sm-6 col-md-3">
+			<img class="gif" src="D:\Bootstrap 4 Site Starter Files\img\panda.gif">
+		</div>
+		<div class="col-sm-6 col-md-3">
+			<img class="gif" src="D:\Bootstrap 4 Site Starter Files\img\poo.gif">
+		</div>
+		<div class="col-sm-6 col-md-3">
+			<img class="gif" src="D:\Bootstrap 4 Site Starter Files\img\unicorn.gif">
+		</div>
+		<div class="col-sm-6 col-md-3">
+			<img class="gif" src="D:\Bootstrap 4 Site Starter Files\img\chicken.gif">
+		</div>
+	</div>
+	</div>
+</div>
+  
+<!--- Meet the team -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display">
+			Fitness Experts
+		</h1>
+	</div>
+	<hr>
+</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+<div class="row padding">
+
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="D:\Bootstrap 4 Site Starter Files\img\fitness-trainer-jobs.png">
+			<div class="card-body">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">John is our Aerobic Exercise specialist trainer. Aerobic exercises, such as running, swimming or dancing, are activities that work your cardiovascular system — they get your heart rate up and make you breathe harder</p>
+				<a href="#" class="btn btn-outlin-secondary">See profile</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="D:\Bootstrap 4 Site Starter Files\img\77.png">
+			<div class="card-body">
+				<h4 class="card-title">Marry Doe</h4>
+				<p class="card-text">Mary is our trainer for Balance and Flexibilty Exercise.Balance exercises improve your ability to control and stabilize your body's position whereas Flexibility exercises stretch your muscles and may improve your range of motion at your joints. </p>
+				<a href="#" class="btn btn-outlin-secondary">See profile</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="D:\Bootstrap 4 Site Starter Files\img\6-Things-to-Consider.png">
+			<div class="card-body">
+				<h4 class="card-title">Phil Doe</h4>
+				<p class="card-text">Phil is our trainer for Strength Exercise.Strength exercises, such as weight lifting, push-ups and crunches, work your muscles by using resistance. This type of exercise increases lean muscle mass, which is particularly important for weight loss</p>
+				<a href="#" class="btn btn-outlin-secondary">See profile</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--- Connect -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-12">
+		<h2>Connect</h2>
+	</div>
+	<div class="col-12 social padding">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-google-plus-g"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-md-4">
+		<img src="D:\Bootstrap 4 Site Starter Files\img\Gym-Fitness-Logo-Template-999x999 (2).png">
+		<hr class="light">
+		<p>555-555-555</p>
+		<p>email@google.com</p>
+		<p>1234 street,abcd</p>
+		<p>city,state,00000</p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<h5>CUSTOMER SERVICE</h5>
+		<hr class="light">
+		<p>FAQs</p>
+		<p>Website Feedback</p>
+		<p>Contact Us</p>
+		<p>Membership Enquiry</p>
+		<p><b>Last Sunday Closed</b></p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<h5>POLICIES & LEGAL</h5>
+		<hr class="light">
+		<p>Privacy policy</p>
+		<p>Terms & Conditions-Members</p>
+		<p>Terms & Conditions-Website</p>
+
+		<p></p>
+	</div>
+	<div class="col-12">
+		<hr class="light-100">
+		<h5>&copy; fitness India Pvt Ltd 2018</h5>
+	</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
